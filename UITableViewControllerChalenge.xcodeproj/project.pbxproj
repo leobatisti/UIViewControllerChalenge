@@ -15,6 +15,7 @@
 		956C8F491D1C0EB300FF3FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956C8F471D1C0EB300FF3FC6 /* LaunchScreen.storyboard */; };
 		956C8F541D1C0EB300FF3FC6 /* UITableViewControllerChalengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C8F531D1C0EB300FF3FC6 /* UITableViewControllerChalengeTests.m */; };
 		956C8F5F1D1C0EB300FF3FC6 /* UITableViewControllerChalengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C8F5E1D1C0EB300FF3FC6 /* UITableViewControllerChalengeUITests.m */; };
+		95C68B351D1C14A500D02D67 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C68B341D1C14A500D02D67 /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		956C8F5A1D1C0EB300FF3FC6 /* UITableViewControllerChalengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChalengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		956C8F5E1D1C0EB300FF3FC6 /* UITableViewControllerChalengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChalengeUITests.m; sourceTree = "<group>"; };
 		956C8F601D1C0EB300FF3FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C68B331D1C14A500D02D67 /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		95C68B341D1C14A500D02D67 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				956C8F3F1D1C0EB300FF3FC6 /* ViewController.h */,
 				956C8F401D1C0EB300FF3FC6 /* ViewController.m */,
 				956C8F421D1C0EB300FF3FC6 /* Main.storyboard */,
+				95C68B331D1C14A500D02D67 /* CCTableViewController.h */,
+				95C68B341D1C14A500D02D67 /* CCTableViewController.m */,
 				956C8F451D1C0EB300FF3FC6 /* Assets.xcassets */,
 				956C8F471D1C0EB300FF3FC6 /* LaunchScreen.storyboard */,
 				956C8F4A1D1C0EB300FF3FC6 /* Info.plist */,
@@ -273,6 +278,7 @@
 				956C8F411D1C0EB300FF3FC6 /* ViewController.m in Sources */,
 				956C8F3E1D1C0EB300FF3FC6 /* AppDelegate.m in Sources */,
 				956C8F3B1D1C0EB300FF3FC6 /* main.m in Sources */,
+				95C68B351D1C14A500D02D67 /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				956C8F651D1C0EB300FF3FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		956C8F661D1C0EB300FF3FC6 /* Build configuration list for PBXNativeTarget "UITableViewControllerChalengeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				956C8F681D1C0EB300FF3FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		956C8F691D1C0EB300FF3FC6 /* Build configuration list for PBXNativeTarget "UITableViewControllerChalengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				956C8F6B1D1C0EB300FF3FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
